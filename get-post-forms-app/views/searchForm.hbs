@@ -1,0 +1,34 @@
+<div class="container">
+
+  <h1>Formulario de vuelos cuqui</h1>
+
+  <div class="row justify-content-center">
+
+    <div class="col-md-8">
+
+      <form action="/results" method="GET">
+        <div class="form-group">
+          <label for="field1">Ciudad de salida</label>
+          <input type="text" class="form-control" id="field1" name="cityDeparture">
+          <small class="form-text text-muted">¡Trabajamos con aeropuertos dignos!</small>
+        </div>
+        <div class="form-group">
+          <label for="field2">Ciudad de llegada</label>
+          <input type="text" class="form-control" id="field2" name="cityDestination">
+        </div>
+        <div class="form-group">
+          <label for="field3">Pasajeros</label>
+          <input type="number" class="form-control" id="field3" name="passengers">
+        </div>
+        <div class="form-group">
+          <label for="field4">Fecha</label>
+          <input type="date" class="form-control" id="field4" name="departureDate">
+          <small class="form-text text-muted">¡Somos flexibles en fechas!</small>
+        </div>
+
+        <button type="submit" class="btn btn-dark">Buscar</button>
+      </form>
+
+    </div>
+  </div>
+</div>
